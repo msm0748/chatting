@@ -2,7 +2,7 @@
   "name": "chatting",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon app.js"
@@ -14,5 +14,8 @@
     "express": "^4.17.2",
     "moment": "^2.29.1",
     "socket.io": "^4.4.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
   }
 }
