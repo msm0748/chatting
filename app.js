@@ -10,7 +10,7 @@ const io = socketIo(server);
 
 app.use(express.static(path.join(__dirname, "src")));
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 8080;
 
 io.on("connection", (socket) => {
   socket.on("chatting", (data) => {
